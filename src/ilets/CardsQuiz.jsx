@@ -3,40 +3,53 @@ import "./cardsQuiz.css"
 
 export default function CardsQuiz(){
     return(
+
         <>
-            <div class="container">
-  <div class="card">
-    <div class="icon">
-      <ion-icon name="globe-outline"></ion-icon>
-    </div>
-    <div class="content">
-      <h2>Card One</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis numquam, alias laborum eaque natus dolor totam perspiciatis adipisci ipsum rem amet nobis commodi placeat!</p>
-    </div>
+
+<div class="card-wrap">
+  <div class="card-header one">
+    <i class="fas fa-code"></i>
   </div>
-  <div class="card">
-    <div class="icon">
-      <ion-icon name="diamond-outline"></ion-icon>
-    </div>
-    <div class="content">
-      <h2>Card Two</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis numquam, alias laborum eaque natus dolor totam perspiciatis adipisci ipsum rem amet nobis commodi placeat!</p>
-    </div>
+  <div class="card-content">
+    <h1 class="card-title">Title</h1>
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <button class="card-btn one">code</button>
+ </div>
+</div>
+<div class="card-wrap">
+  <div class="card-header two">
+    <i class="fab fa-css3-alt"></i>
   </div>
-  <div class="card">
-    <div class="icon">
-      <ion-icon name="rocket-outline"></ion-icon>
-    </div>
-    <div class="content">
-      <h2>Card Three</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis numquam, alias laborum eaque natus dolor totam perspiciatis adipisci ipsum rem amet nobis commodi placeat!</p>
-    </div>
+  <div class="card-content">
+    <h1 class="card-title">Title</h1>
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <button class="card-btn two">css3</button>
+ </div>
+</div>
+<div class="card-wrap">
+  <div class="card-header three">
+    <i class="fab fa-html5"></i>
   </div>
+  <div class="card-content">
+    <h1 class="card-title">Title</h1>
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <button class="card-btn three">html5</button>
+ </div>
+</div>
+<div class="card-wrap">
+  <div class="card-header four">
+    <i class="fab fa-js-square"></i>
+  </div>
+  <div class="card-content">
+    <h1 class="card-title">Title</h1>
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <button class="card-btn four">js</button>
+ </div>
 </div>
 
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </>
+
+
     )
 }
