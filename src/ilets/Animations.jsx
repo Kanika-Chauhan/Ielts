@@ -4,7 +4,7 @@ import pic6 from "../images/pic6.jpg"
 import pic7 from "../images/pic7.png"
 import pic8 from "../images/pic8.png"
 import pic9 from "../images/pic9.jpg"
-import pic11 from "../images/pic11.jpg"
+
 
 export default function Animations(){
     return(

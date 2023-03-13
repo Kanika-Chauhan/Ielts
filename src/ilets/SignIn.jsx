@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Link, Outlet } from "react-router-dom";
 import FormInputs from "./FormInputs";
+import CardsQuiz from "./CardsQuiz";
 
 
 export default function SignIn(){
@@ -76,6 +77,7 @@ export default function SignIn(){
         </div>
         </form>
         <Outlet/>
+        <CardsQuiz/>
         
        </>
     )
