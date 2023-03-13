@@ -1,0 +1,50 @@
+
+.quizText{
+    font-family: 'Anton', sans-serif;
+    font-size: larger;
+    color: rgb(46, 45, 45);
+    
+}
+.my-font-anton{
+
+    font-family: 'Anton', sans-serif;
+}
+.my-text-span{
+
+    color: rgb(114, 41, 114);
+}
+.my-black-box{
+    font-family: 'Anton', sans-serif;
+
+    height: 5rem;
+    background-color: rgb(158, 20, 20);
+    color: rgb(204, 160, 204);
+    /* letter-spacing: 5px; */
+
+
+
+}
+/* .girl-img{
+    animation: girl 1s infinite;
+}
+@keyframes girl{
+    50%{
+        transform: skew(5deg);
+    }
+} */
+
+
+.gen-ach-buttons{
+    background-color: blueviolet;
+    height: 3rem;
+    border:none;
+    box-shadow: 8px 8px 5px rgb(158, 36, 56);
+    border-radius: 3px;
+    color: white;
+    font-size: 1.3rem;
+}
+.gen-ach-buttons:hover{
+    background-color:rgb(245, 79, 106) ;
+    box-shadow: 10px 10px 5px blueviolet;
+
+}
