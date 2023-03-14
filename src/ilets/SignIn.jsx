@@ -1,9 +1,10 @@
 import { useState } from "react"
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import FormInputs from "./FormInputs";
 
 
 export default function SignIn(){
+    const navigate = useNavigate();
     const [value, setValue] = useState({
         username:"",
         email : "",
@@ -69,9 +70,9 @@ export default function SignIn(){
         )
         }
         <div className="text-center">
-        <button type="submit" className=" btn w-75 mb-1 btn-primary">Sign In</button>
+        <button type="submit" className=" btn w-75 mb-1 btn-primary " onClick={()=>navigate('/TestCard')}>Sign In</button>
         </div>
-        <p className="ms-5">Forgot <Link >password?</Link></p>
+        <p className="ms-5">Forgot <Link to="/ForgotPassword" >password?</Link></p>
 
         </div>
         </form>

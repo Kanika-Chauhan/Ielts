@@ -11,7 +11,7 @@ export default function Mainfile(){
          <Animations/>
          <SideQuiz/>
         <Testmonial/>
-        {/* <GrammerQuiz/> */}
+        <GrammerQuiz/>
         </>
     )
 }
