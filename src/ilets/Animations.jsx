@@ -4,6 +4,7 @@ import pic6 from "../images/pic6.jpg"
 import pic7 from "../images/pic7.png"
 import pic8 from "../images/pic8.png"
 import pic9 from "../images/pic9.jpg"
+import "./animations.css"
 
 
 export default function Animations(){
@@ -13,8 +14,8 @@ export default function Animations(){
         <div className="row ms-3 ms-md-0 my-5">
             <div className="col-md-2 col-5">
                 <div className="box " id="pic4">
-                    <div className="flip">
-                        <img src={pic4}  height="150px" width="150px" alt=""/>
+                    <div className="flip ">
+                        <img src={pic4} height="150px" width="150px" alt=""/>
                         <img src={pic4} height="150px" width="150px" alt=""/>
                     </div>
                 </div>

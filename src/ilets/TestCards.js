@@ -1,47 +1,32 @@
 import React from 'react'
+import { navigate, useNavigate } from 'react-router-dom'
 
 const TestCards = () => {
+  const navigate = useNavigate();
   return (
-
-
+    <div>
     
-    <div className="row justify-content-around tranform: scale(1.25) gap-4 shadow-sm mt-4 ">
-  <div class="card col" >
-    <div className='view hover-zoom '>
-    <img  src='https://ieltsfocus.com/wp-content/uploads/2016/12/image-7.jpg' className="card-img-top  " />
+
+      <div className="row m-auto my-5 gap-md-5 text-center justify-content-evenly mt-4">
+          <div style={{backgroundColor : "#94dae9"}} className="card   shadow w-50   col-md-6" >
+            <div className="card-body">
+              <h4 className="card-title">Reading</h4>
+              <p className="card-text pt-1">You will get 60 minutes to complete 40 questions. Click to start</p>
+              <a href="#" className="btn btn-primary" onClick={()=>navigate('/GrammerQuiz')}>Start</a>
+            </div>
+          </div>
+
+      </div>
+      <div className="row m-auto my-5 gap-md-5 text-center justify-content-evenly mt-4">
+        <div style={{backgroundColor : "#94dae9"}} className="card shadow w-50 col-md-6" >
+          <div className="card-body">
+            <h4 className="card-title">Writing</h4>
+            <p className="card-text">You will get 60 minutes to complete 40 questions. Click to start</p>
+            <a href="#" className="btn btn-primary">Start</a>
+          </div>
+        </div>
+        </div>
     </div>
-  
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div className="card col" >
-  <img className="card-img-top" />
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div className="card col" >
-  <img className="card-img-top" />
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div className="card col" >
-  <img className="card-img-top" />
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
   )
 }
 

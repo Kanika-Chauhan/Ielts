@@ -1,17 +1,17 @@
 import Testmonial from "./ilets/testimonial";
-import Animations from "./ilets/Animations";
 import SideQuiz from "./ilets/SideQuiz";
 import GrammerQuiz from "./ilets/GrammerQuiz"
+import Prepare from "./ilets/Prepare"
 
 
 export default function Mainfile(){
 
     return(
         <>
-         <Animations/>
-         <SideQuiz/>
-        <Testmonial/>
-        <GrammerQuiz/>
+        <Prepare/>
+         {/* <SideQuiz/> */}
+        {/* <Testmonial/> */}
+        {/* <GrammerQuiz/> */}
         </>
     )
 }

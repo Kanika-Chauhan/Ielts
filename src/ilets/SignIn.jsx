@@ -70,7 +70,7 @@ export default function SignIn(){
         )
         }
         <div className="text-center">
-        <button type="submit" className=" btn w-75 mb-1 btn-primary " onClick={()=>navigate('/TestCard')}>Sign In</button>
+        <button type="submit" className=" btn w-75 mb-1 btn-primary " onClick={()=>navigate('/SideQuiz')}>Sign In</button>
         </div>
         <p className="ms-5">Forgot <Link to="/ForgotPassword" >password?</Link></p>
 

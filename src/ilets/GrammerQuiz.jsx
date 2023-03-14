@@ -1,7 +1,6 @@
 import React from "react";
-import { useState } from "react";
+import { useState, createContext } from "react";
 // import "./quiz.css"
-
 export default function Quiz() {
 
 
@@ -75,9 +74,12 @@ export default function Quiz() {
 
 
     return (
-        <div className="bgimagequiz">
 
-            <div className=" p-4 w-50 question mb-5 ">
+        
+
+        <div className="bgGrammer">
+
+            <div className=" p-4 w-50 question mb-5 border shadow m-auto mt-5 bg-light ">
                 {totalScore ? (
                     <div className="text-center mt-3 "> <h4> Your total score is <i className="fa-solid fa-trophy"></i> : {score} / {questions.length} </h4>
                         <h4 className="mt-4"> Percentage <i className="fa-solid fa-award"></i> : {(score / questions.length) * 100}% </h4>
