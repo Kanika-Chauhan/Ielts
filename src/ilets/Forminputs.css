@@ -11,6 +11,7 @@ input:invalid[focused="true"] ~ span{
 }
 .label{
     margin-left: 2.6rem;
+    
 }
 
 

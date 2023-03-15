@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, createContext } from "react";
 // import "./quiz.css"
+import "./grammerQuiz.css"
 export default function Quiz() {
 
 
@@ -70,14 +71,14 @@ export default function Quiz() {
             setScore(score + 1);
         }
     }
-
-
-
     return (
 
         
 
-        <div className="bgGrammer">
+        <div className="shapedividers_com-8524
+
+
+            bg-danger">
 
             <div className=" p-4 w-50 question mb-5 border shadow m-auto mt-5 bg-light ">
                 {totalScore ? (
