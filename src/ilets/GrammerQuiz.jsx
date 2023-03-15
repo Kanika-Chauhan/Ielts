@@ -73,10 +73,7 @@ export default function Quiz() {
 
         
 
-        <div className="shapedividers_com-8524
-
-
-            bg-danger">
+        
 
             <div className=" p-4 w-50 question mb-5 border shadow m-auto mt-5 bg-light ">
                 {totalScore ? (
@@ -121,6 +118,5 @@ export default function Quiz() {
                     </>
                 )}
             </div>
-        </div>
     )
 }
