@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState, createContext } from "react";
 // import "./quiz.css"
 export default function Quiz() {
@@ -46,6 +46,11 @@ export default function Quiz() {
     const [totalScore, setTotalScore] = useState(false)
     const [clickedOption, setClickedOption] = useState(0)
 
+ //timer states
+    const [min, setMin]=useState(0)
+    const [sec ,SetSec]= useState(0)
+    const [time ,setTime] =useState(true)
+
 
 
 
@@ -67,17 +72,49 @@ export default function Quiz() {
     }
     const updateScore = () => {
         if (clickedOption === questions[currentqstn].answer) {
-            setScore(score + 1);
+            setScore(score+1);
         }
     }
 
+//timer 
+useEffect(()=>{
+    
+    if(time){
+     setTimeout(()=>{
+            SetSec(sec+1)
+            
+        if(sec===60){
+            setMin(min+1)
+            SetSec(0)
+        
+        }
+        else if(sec==9){
+            setTotalScore(true)
+            setTime(false)
+        }
+    
+       
+        },1000)
+    }
+    else{
+        clearTimeout()  
+      }
 
+
+}
+)
 
     return (
 
         
 
         <div className="bgGrammer">
+            <div className="">
+               
+     <h1 className="mt-2 d-flex justify-content-center">You have only 10 seconds to Complete the quiz</h1>
+                <h1 className="d-flex justify-content-center">{min}:{sec}</h1>
+                </div>
+          
 
             <div className=" p-4 w-50 question mb-5 border shadow m-auto mt-5 bg-light ">
                 {totalScore ? (
