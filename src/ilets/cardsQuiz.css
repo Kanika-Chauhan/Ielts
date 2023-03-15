@@ -1,7 +1,0 @@
-.card_tobe{
-    transition:  .4s;
-}
-
-.card_tobe:hover {
-    transform: translate(0, -2%);
-}

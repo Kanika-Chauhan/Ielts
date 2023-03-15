@@ -1,7 +1,5 @@
 import React from "react";
 import { useState, createContext } from "react";
-// import "./quiz.css"
-import "./grammerQuiz.css"
 export default function Quiz() {
 
 

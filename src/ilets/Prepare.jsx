@@ -1,6 +1,6 @@
 import pic11 from "../images/pic11.jpg"
 import pic17 from "../images/pic17.jpg"
-import "./sideQuiz.css"
+import "./sideQuiz.scss"
 import { useNavigate } from "react-router-dom"
 
 

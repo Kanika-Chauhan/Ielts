@@ -1,0 +1,38 @@
+$myFont : 'Anton',
+sans-serif;
+
+.quizText {
+    font-family: $myFont;
+    color: rgb(46, 45, 45);
+}
+
+.my-font-anton {
+    font-family: $myFont;
+}
+
+.my-text-span {
+    color: rgb(114, 41, 114);
+}
+
+.my-black-box {
+    font-family: $myFont;
+    height: 5rem;
+    background-color: rgb(158, 20, 20);
+    color: rgb(204, 160, 204);
+}
+
+.gen-ach-buttons {
+    background-color: blueviolet;
+    height: 3rem;
+    border: none;
+    box-shadow: 8px 8px 5px rgb(158, 36, 56);
+    border-radius: 3px;
+    color: white;
+    font-size: 1.3rem;
+
+    &:hover {
+        background-color: rgb(245, 79, 106);
+        box-shadow: 10px 10px 5px blueviolet;
+
+    }
+}

@@ -1,14 +1,10 @@
 import pic11 from "../images/pic11.jpg"
-// import pic16 from "../images/pic16.jpg"
-import pic17 from "../images/pic17.jpg"
-import "./sideQuiz.css"
-// import { useNavigate } from "react-router-dom"
+import "./sideQuiz.scss"
 import TestCards from "./TestCards"
 import Animations from "./Animations"
 
 
 export default function SideQuiz() {
-    // const navigate = useNavigate();
     return (
 
         <>
