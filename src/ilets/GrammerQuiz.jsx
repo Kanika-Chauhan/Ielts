@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, createContext } from "react";
+import { useState } from "react";
 export default function Quiz() {
 
 
@@ -70,11 +70,6 @@ export default function Quiz() {
         }
     }
     return (
-
-        
-
-        
-
             <div className=" p-4 w-50 question mb-5 border shadow m-auto mt-5 bg-light ">
                 {totalScore ? (
                     <div className="text-center mt-3 "> <h4> Your total score is <i className="fa-solid fa-trophy"></i> : {score} / {questions.length} </h4>
