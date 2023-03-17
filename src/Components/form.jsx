@@ -1,6 +1,6 @@
 import FormInputs from "./FormInputs";
 import { useState } from "react";
-import "./form.scss"
+import "./form.css"
 import { Link, Outlet } from "react-router-dom";
 
 export default function Form(){

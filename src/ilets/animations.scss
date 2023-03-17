@@ -1,0 +1,49 @@
+
+.flip{
+    transform: translate(0,-150px);
+    transition: 1s;
+    
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 100px;
+        
+    &:hover .flip{
+        transform: translate(0,0px);
+    
+    }
+}
+
+.my-red-box{
+    margin-top: -90px;
+    z-index: 0;
+    height: 150px;
+}
+.wave-show{
+    position: relative;
+}
+.custom-shape-divider-bottom-1678427759 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+
+    svg {
+        position: relative;
+        display: block;
+        width: calc(139% + 1.3px);
+        height: 103px;
+    }
+    .shape-fill {
+        fill: #FFFFFF;
+    }
+}
+
+
+

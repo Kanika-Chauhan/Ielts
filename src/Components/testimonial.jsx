@@ -3,7 +3,7 @@ import pic2 from "../images/pic2.jpg"
 import pic3 from "../images/pic3.jpg"
 
 
-import "./testimonial.scss"
+import "./testimonial.css"
 
 
 export default function Testmonial(){

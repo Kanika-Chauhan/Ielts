@@ -1,0 +1,16 @@
+.label {
+    margin-left: 2.6rem;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 1rem
+    }
+}
+
+input:invalid[focused="true"]~span {
+    display: block;
+}
+
+.my-form-span {
+    display: none;
+    font-size: smaller;
+}

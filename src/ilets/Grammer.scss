@@ -1,0 +1,15 @@
+
+$color: rgba(161, 170, 238, 0.763);
+.left-side{
+    height: 80vh;
+    overflow-y: scroll;
+    
+}
+.heading-passage{
+    height: 10vh;
+    background-color: $color ;
+}
+.footer-passage{
+    background-color: $color   ;
+    height: 7vh;
+}

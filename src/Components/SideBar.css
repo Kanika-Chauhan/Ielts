@@ -1,0 +1,98 @@
+ body{
+    font-family: "Fira Sans", sans-serif;
+
+ }
+ .container{
+  display: flex;
+ }
+.sidebar{
+ width: 330px;  
+ height: 100vh;
+ background-color: rgb(3, 3, 58);
+}
+.heading{ 
+  font-size:x-large ;
+padding-left: 20px;
+padding-top:10px ;
+color: rgba(255, 255, 255, 0.883);
+    padding-top: 10px;
+}
+.items{ 
+  line-height: 50px;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+.image{
+height: 30px;
+margin-right: 4px;
+padding-top: 4px;
+}
+.list:hover{
+text-align: center;
+border-radius:4px;
+  width:90%;
+  background-color: blue;
+}
+.header{
+  text-align:end;
+ font-size: larger;
+ box-shadow:20%;
+
+ height: 50px;
+background-color: rgb(236, 236, 236);
+}
+.john{
+  height: 20px;
+  border-radius: 10px;
+padding-top: 10px;
+}
+.box{
+  text-align: center;
+  height:500px;
+  margin-top: 40px;
+  margin-left: 100px;
+  background-color: rgb(236, 236, 236);
+}
+.content{
+  display: grid;
+  justify-content: center;
+
+}
+.btn1{
+
+  color:rgba(255, 255, 255, 0.883);
+  background-color: rgb(14, 14, 211);
+}
+.btn{
+
+  color:rgba(255, 255, 255, 0.883);
+  background-color: rgb(14, 14, 211);
+  
+}
+.card{
+  width: 200px;
+  height: 450px;
+  margin-left: 40px;
+  display: block;
+  justify-content: center;
+    margin-top:40px ;
+  background-color: rgb(236, 236, 236);
+}
+.price{
+  text-align: center;
+ padding-left: 6px;
+ padding-right: 6px;
+}
+.amount{
+  color: 
+  #5846DF
+}
+.img1{
+  width: 500px;
+}
+.img6{
+  ;
+}
+.p-gateway{
+  
+}

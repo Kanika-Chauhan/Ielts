@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import "./Forminputs.scss"
+import "./Forminputs.css"
 
 export default function FormInputs(props){
 
