@@ -88,9 +88,7 @@ export default function Quiz() {
       clearTimeout();
     }
   });
-//   const sub =useRef();
   const Submited =()=>{
-        // sub.current.style.text="red"
 
         console.log("sdfdsgfg")
         SetSubmit(false)
@@ -99,8 +97,8 @@ export default function Quiz() {
 
   return (
     <div>
-      <div className="row mx-3 heading-passage ">
-        <div className="col-md-8  mb-2 mt-1 border-none rounded">
+      <div className="row mx-3 heading-passage mb-2">
+        <div className="col-md-8  mt-1 border-none rounded">
           
           <p>
             <b>Passage 1</b>
@@ -117,77 +115,18 @@ export default function Quiz() {
 
 
       <div className="row mx-3 border   rounded">
-        <div className="col bg-light left-side">
+        <div className="col-md-6 bg-light left-side">
           {/* passage */}
           <h3>Passage</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit
-            eos ut ullam officiis? Quibusdam, tempore corporis temporibus facere
-            modi magni expedita, architecto, labore fugiat suscipit ducimus
-            perferendis? Assumenda vitae, veritatis beatae deserunt voluptatum
-            non distinctio sint! Impedit veritatis incidunt quibusdam qui
-            excepturi unde, cum nihil rerum fugit placeat nulla voluptas eos
-            atque amet, sequi ab! Reprehenderit distinctio incidunt molestiae
-            minus saepe alias odit autem quae? Voluptate molestiae magni quo
-            ratione nihil facilis eligendi beatae deserunt, mollitia alias
-            distinctio soluta qui pariatur? Voluptatibus quidem dolore
-            laudantium harum repellendus! Corrupti perspiciatis corporis
-            blanditiis quam eum neque! Non iusto totam sequi illo nemo, aut sint
-            earum officiis doloribus fugit eos ea sunt veniam odit nisi, aliquid
-            consectetur? Delectus, eligendi iusto et doloremque unde voluptates
-            dignissimos molestias accusantium deserunt? Maxime saepe nobis vel
-            consequuntur labore incidunt ullam odit placeat itaque? Laborum
-            atque aperiam sit neque ipsa earum eum laboriosam excepturi
-            inventore perspiciatis odio voluptates expedita maxime, voluptatum
-            porro placeat quam maiores dolore velit odit consequuntur? Corporis
-            quas numquam, consequatur nihil optio mollitia ipsum vero eius
-            laborum dolor et iure est voluptas aspernatur in. Cupiditate
-            delectus repellat neque hic corrupti, ab vel optio eaque ducimus quo
-            praesentium omnis, deserunt itaque accusantium dolores maiores quos.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            quibusdam veniam libero expedita blanditiis iusto laboriosam nam
-            consequuntur necessitatibus culpa sed modi rem, provident dolorem
-            dolor perspiciatis perferendis molestias! Repudiandae cumque debitis
-            nihil eius qui doloribus assumenda, dicta molestias totam. Ab earum
-            tempore ea dolorum officia maxime incidunt reprehenderit distinctio,
-            impedit repellat consequuntur dolor est corporis quibusdam, delectus
-            veniam, minima beatae? Harum maiores maxime ea modi recusandae odit
-            quod cum facere ratione sapiente, temporibus dignissimos quo,
-            dolores vero eum. Consequuntur optio dicta reprehenderit, beatae
-            pariatur consectetur quasi libero, ea omnis sapiente hic placeat
-            debitis veniam quas modi eligendi mollitia provident! Possimus natus
-            recusandae blanditiis facere? Repellat, ad! Quasi nisi perspiciatis
-            nam soluta molestiae dicta aperiam error itaque molestias, dolorum,
-            asperiores ut sapiente quis odio eum. Hic, veniam nulla soluta culpa
-            nisi officiis eligendi modi reprehenderit minima a delectus fuga
-            odit totam illum saepe similique quibusdam quidem voluptas, expedita
-            consequuntur recusandae! Voluptate quos deserunt quam repellat
-            deleniti, repellendus cumque quis ex est inventore, nemo dignissimos
-            modi quas facere, laudantium tempora esse hic aut dicta? Suscipit
-            consequuntur at eligendi maxime eos, excepturi officiis earum dolore
-            obcaecati est libero nostrum inventore aspernatur repellendus
-            voluptate odit dignissimos commodi. Reprehenderit perferendis nulla
-            nisi nesciunt eum?
-          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel suscipit voluptatem delectus praesentium neque, cupiditate nulla saepe itaque maxime laboriosam impedit consequuntur quidem cum eaque autem reiciendis, modi minus tenetur vitae. Rem laudantium deserunt consequuntur tenetur facere qui optio repellat ipsam omnis. Totam eos praesentium nostrum illum nesciunt perferendis illo, reiciendis officia fugit non. Rerum ab optio dolore praesentium blanditiis fuga repudiandae sed quod tempora, mollitia sit molestiae, maxime architecto commodi. Consectetur soluta fugit labore culpa placeat rerum sit, et temporibus voluptatem, quod molestiae dolor delectus amet ex quia? Quis voluptates nemo voluptatem ratione incidunt vitae quaerat eligendi nihil, voluptatibus sequi voluptate a harum adipisci itaque eos dolores, aperiam nisi similique tempore neque quas vel unde? Eligendi dolores repellendus sunt voluptatibus, saepe ipsam praesentium dolor at quasi illo a provident officia excepturi odio debitis qui error quisquam quibusdam dolorem molestias voluptatum amet aliquid hic modi. Cupiditate totam fugiat at tempora maiores recusandae molestiae mollitia corporis repellat necessitatibus aperiam possimus, fugit nemo assumenda aut officiis architecto veritatis sequi quasi ratione. Nostrum sunt fugiat, ullam eum vero aliquid corporis quo facere tenetur est quidem inventore, totam eligendi. Quae illo molestiae, quod aspernatur dignissimos obcaecati minima architecto ratione sed necessitatibus, corrupti iure at consectetur. Ipsam necessitatibus eius tenetur asperiores dignissimos. Dignissimos eius eos, quidem iusto laudantium adipisci commodi provident eveniet, ad reprehenderit qui neque velit aut! Nulla eaque alias perspiciatis aliquid earum magnam, molestiae id deleniti, aperiam dignissimos velit similique corrupti repellendus error delectus molestias eum? Eaque dolores officia odio vero incidunt perferendis, ab obcaecati earum quaerat, praesentium quis consequatur atque quas inventore sapiente doloremque possimus ducimus mollitia asperiores dicta! Eos nisi harum maiores vel ipsum, distinctio saepe unde aliquam. Sit officia eaque perspiciatis fugit asperiores praesentium? Odit, maiores? Deserunt amet sequi quod aliquam veniam voluptatum recusandae illo odio laudantium commodi vitae blanditiis, sunt cum ex illum eaque! Dicta atque dolore nemo molestiae quas quo harum alias obcaecati quisquam! Illum, sunt omnis quaerat nisi modi accusamus nemo optio quos obcaecati itaque. Accusantium omnis illum quisquam praesentium quod consequuntur. Optio quis, adipisci quam non cum esse cupiditate omnis ex sit! Ea quisquam tempore voluptates quis esse, incidunt quam magni illo ullam in rem vel velit ipsum officiis earum voluptatibus natus nostrum voluptatem pariatur fuga quibusdam soluta deserunt molestias? Dignissimos repellat aperiam architecto esse rem dolor labore officia fugiat cumque iure, repellendus aliquam quo soluta rerum eligendi porro recusandae, amet, eum suscipit voluptates omnis!</p>
+         
         </div>
-        <div className="col ">
+        <div className="col-md-6 mt-5 mt-md-0 ">
           {/* Questions */}
           <h3>Questions</h3>
           <div className=" p-4  question  border  m-auto  bg-light ">
             {totalScore ? (
               <div className="text-center mt-3 ">
-                {/* <h4> Your total score is <i className="fa-solid fa-trophy"></i> : {score} / {questions.length} </h4>
-                        <h4 className="mt-4"> Percentage <i className="fa-solid fa-award"></i> : {(score / questions.length) * 100}% </h4>
-                        <table className="text-start table  mt-md-4" >
-                            <tr >
-                                <td><h5>Correct answers <i className="fa-regular fa-face-laugh"></i></h5></td>
-                                <td><h5>{score}</h5></td>
-                            </tr>
-                            <tr>
-                                <td><h5>Wrong answers <i className="fa-regular fa-face-frown"></i></h5></td>
-                                <td><h5>{(questions.length) - (score)}</h5></td>
-                            </tr>
-                        </table> */}
                  <br />
                 <button onClick={Submited} className="btn btn-primary" >{submit?"Submit":"Submited"}</button>
               </div>
@@ -225,7 +164,7 @@ export default function Quiz() {
                   </button>
                   <button
                     type="button"
-                    className="btn btn-dark ms-1 mt-3 mt-md-0"
+                    className="btn btn-dark ms-1  mt-md-0"
                     onClick={handleNext}
                   >
                     Next
@@ -239,58 +178,5 @@ export default function Quiz() {
       <div className="footer-passage mx-2  mt-2">hgh</div>
     </div>
 
-    //     <div className="bgGrammer">
-    //         <div className="">
-
-    //  <h1 className="mt-2 d-flex justify-content-center">You have only 10 seconds to Complete the quiz</h1>
-    //             <h1 className="d-flex justify-content-center">{min}:{sec}</h1>
-    //             </div>
-
-    //         <div className=" p-4 w-50 question mb-5 border shadow m-auto mt-5 bg-light ">
-    //             {totalScore ? (
-    //                 <div className="text-center mt-3 ">
-    //                      {/* <h4> Your total score is <i className="fa-solid fa-trophy"></i> : {score} / {questions.length} </h4>
-    //                     <h4 className="mt-4"> Percentage <i className="fa-solid fa-award"></i> : {(score / questions.length) * 100}% </h4>
-
-    //                     <table className="text-start table  mt-md-4" >
-    //                         <tr >
-    //                             <td><h5>Correct answers <i className="fa-regular fa-face-laugh"></i></h5></td>
-    //                             <td><h5>{score}</h5></td>
-    //                         </tr>
-    //                         <tr>
-    //                             <td><h5>Wrong answers <i className="fa-regular fa-face-frown"></i></h5></td>
-    //                             <td><h5>{(questions.length) - (score)}</h5></td>
-    //                         </tr>
-    //                     </table> */}
-    //                     Go to next passage <br />
-    //                     <button>next</button>
-    //                 </div>
-
-    //             ) : (
-    //                 <>
-    //                     <div className="text-center text-md-start mb-3 mb-md-0">
-    //                         <span className="badge bg-dark p-2 ">
-    //                             {currentqstn + 1}/{questions.length}</span>
-    //                     </div>
-    //                     <div className="text-center mainheading">
-    //                         <h3>{questions[currentqstn].qst}</h3>
-    //                         <br />
-    //                         {questions[currentqstn].option.map((val, i) => (
-    //                             <button type="button" className={`btn d-block ms-5 btn-outline-dark m-2 ${clickedOption === i + 1 ? "checked" : null
-    //                                 }`} key={i} onClick={() => setClickedOption(i + 1)}>{val}</button>
-
-    //                         ))}
-    //                     </div>
-    //                     <br /> <br />
-    //                     <div className="d-md-flex text-center  justify-content-evenly  ">
-    //                         <button type="button" className="btn btn-dark" onClick={handlePrev} >Previous</button>
-    //                         <button type="button" className="btn btn-dark ms-1 mt-3 mt-md-0" onClick={handleNext}  >Next</button>
-
-    //                     </div>
-
-    //                 </>
-    //             )}
-    //         </div>
-    //     </div>}
   );
 }
