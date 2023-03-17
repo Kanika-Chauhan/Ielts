@@ -14,15 +14,13 @@ export default function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Mainfile />}>
-          </Route>
+          <Route path="/" element={<Mainfile />}></Route>
           <Route path="Form" element={<Form />} />
           <Route path="SignIn" element={<SignIn />} />
           <Route path="TestCards" element={<TestCards />} />
           <Route path="SideQuiz" element={<SideQuiz />} />
           <Route path="GrammerQuiz" element={<GrammerQuiz />} />
         </Routes>
-
       </BrowserRouter>
     </>
   )

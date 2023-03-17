@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react'
+import "./Grammer.scss"
 import { useState } from "react";
-export default function Quiz() {
 
 
+export default function GrammerQuiz() {
     var questions = [
         {
             qst: "I can't find my keys ________.",
@@ -40,6 +41,7 @@ export default function Quiz() {
 
 
     ];
+    
     const [currentqstn, setCurrentqstn] = useState(0)
     const [score, setScore] = useState(0)
     const [totalScore, setTotalScore] = useState(false)
@@ -69,10 +71,33 @@ export default function Quiz() {
             setScore(score + 1);
         }
     }
-    return (
-            <div className=" p-4 w-50 question mb-5 border shadow m-auto mt-5 bg-light ">
+  return (
+    <div >
+
+        <div className="row mx-3 ">
+            <div className="col heading-passage mb-2 mt-1 border-none rounded">
+                <p><b>Passage 1</b></p>
+                <p>Read the text below and answer questions 1 - 14</p>
+
+            </div>
+        </div>
+      <div className="row mx-3 border   rounded">
+        <div className="col bg-light left-side">
+
+            {/* passage */}
+
+            <h3>Passage</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit eos ut ullam officiis? Quibusdam, tempore corporis temporibus facere modi magni expedita, architecto, labore fugiat suscipit ducimus perferendis? Assumenda vitae, veritatis beatae deserunt voluptatum non distinctio sint! Impedit veritatis incidunt quibusdam qui excepturi unde, cum nihil rerum fugit placeat nulla voluptas eos atque amet, sequi ab! Reprehenderit distinctio incidunt molestiae minus saepe alias odit autem quae? Voluptate molestiae magni quo ratione nihil facilis eligendi beatae deserunt, mollitia alias distinctio soluta qui pariatur? Voluptatibus quidem dolore laudantium harum repellendus! Corrupti perspiciatis corporis blanditiis quam eum neque! Non iusto totam sequi illo nemo, aut sint earum officiis doloribus fugit eos ea sunt veniam odit nisi, aliquid consectetur? Delectus, eligendi iusto et doloremque unde voluptates dignissimos molestias accusantium deserunt? Maxime saepe nobis vel consequuntur labore incidunt ullam odit placeat itaque? Laborum atque aperiam sit neque ipsa earum eum laboriosam excepturi inventore perspiciatis odio voluptates expedita maxime, voluptatum porro placeat quam maiores dolore velit odit consequuntur? Corporis quas numquam, consequatur nihil optio mollitia ipsum vero eius laborum dolor et iure est voluptas aspernatur in. Cupiditate delectus repellat neque hic corrupti, ab vel optio eaque ducimus quo praesentium omnis, deserunt itaque accusantium dolores maiores quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam veniam libero expedita blanditiis iusto laboriosam nam consequuntur necessitatibus culpa sed modi rem, provident dolorem dolor perspiciatis perferendis molestias! Repudiandae cumque debitis nihil eius qui doloribus assumenda, dicta molestias totam. Ab earum tempore ea dolorum officia maxime incidunt reprehenderit distinctio, impedit repellat consequuntur dolor est corporis quibusdam, delectus veniam, minima beatae? Harum maiores maxime ea modi recusandae odit quod cum facere ratione sapiente, temporibus dignissimos quo, dolores vero eum. Consequuntur optio dicta reprehenderit, beatae pariatur consectetur quasi libero, ea omnis sapiente hic placeat debitis veniam quas modi eligendi mollitia provident! Possimus natus recusandae blanditiis facere? Repellat, ad! Quasi nisi perspiciatis nam soluta molestiae dicta aperiam error itaque molestias, dolorum, asperiores ut sapiente quis odio eum. Hic, veniam nulla soluta culpa nisi officiis eligendi modi reprehenderit minima a delectus fuga odit totam illum saepe similique quibusdam quidem voluptas, expedita consequuntur recusandae! Voluptate quos deserunt quam repellat deleniti, repellendus cumque quis ex est inventore, nemo dignissimos modi quas facere, laudantium tempora esse hic aut dicta? Suscipit consequuntur at eligendi maxime eos, excepturi officiis earum dolore obcaecati est libero nostrum inventore aspernatur repellendus voluptate odit dignissimos commodi. Reprehenderit perferendis nulla nisi nesciunt eum?</p>
+        </div>
+        <div className="col ">
+
+            {/* Questions */}
+
+            <h3>Questions</h3>
+            <div className=" p-4  question  border  m-auto  bg-light ">
                 {totalScore ? (
-                    <div className="text-center mt-3 "> <h4> Your total score is <i className="fa-solid fa-trophy"></i> : {score} / {questions.length} </h4>
+                    <div className="text-center mt-3 ">
+                         {/* <h4> Your total score is <i className="fa-solid fa-trophy"></i> : {score} / {questions.length} </h4>
                         <h4 className="mt-4"> Percentage <i className="fa-solid fa-award"></i> : {(score / questions.length) * 100}% </h4>
 
                         <table className="text-start table  mt-md-4" >
@@ -84,7 +109,9 @@ export default function Quiz() {
                                 <td><h5>Wrong answers <i className="fa-regular fa-face-frown"></i></h5></td>
                                 <td><h5>{(questions.length) - (score)}</h5></td>
                             </tr>
-                        </table>
+                        </table> */}
+                        Go to next passage <br />
+                        <button>next</button>
                     </div>
 
                 ) : (
@@ -97,7 +124,7 @@ export default function Quiz() {
                             <h3>{questions[currentqstn].qst}</h3>
                             <br />
                             {questions[currentqstn].option.map((val, i) => (
-                                <button type="button" className={`btn btn-outline-dark m-2 ${clickedOption === i + 1 ? "checked" : null
+                                <button type="button" className={`btn d-block ms-5 btn-outline-dark m-2 ${clickedOption === i + 1 ? "checked" : null
                                     }`} key={i} onClick={() => setClickedOption(i + 1)}>{val}</button>
 
                             ))}
@@ -113,5 +140,9 @@ export default function Quiz() {
                     </>
                 )}
             </div>
-    )
+
+        </div>
+      </div>
+    </div>
+  )
 }
