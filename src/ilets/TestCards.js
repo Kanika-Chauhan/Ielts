@@ -7,7 +7,7 @@ const TestCards = () => {
     <div>
     
 
-      <div className="row m-auto my-5 gap-md-5 text-center justify-content-evenly mt-4">
+      <div className="row my-5 gap-md-5 text-center  mt-4">
           <div style={{backgroundColor : "#94dae9"}} className="card   shadow w-50   col-md-6" >
             <div className="card-body">
               <h4 className="card-title">Reading</h4>
@@ -17,7 +17,7 @@ const TestCards = () => {
           </div>
 
       </div>
-      <div className="row m-auto my-5 gap-md-5 text-center justify-content-evenly mt-4">
+      <div className="row  my-5 gap-md-5 text-center  mt-4">
         <div style={{backgroundColor : "#94dae9"}} className="card shadow w-50 col-md-6" >
           <div className="card-body">
             <h4 className="card-title">Writing</h4>

@@ -29,7 +29,7 @@ export default function Quiz() {
       answer: 2,
     },
     {
-      qst: "You should ______ swimming.",
+      qst: "You should _____ swimming.",
       option: ["start up", "get off", "take up ", "take off"],
       answer: 3,
     },
