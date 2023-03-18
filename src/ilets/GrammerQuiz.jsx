@@ -64,14 +64,6 @@ export default function Quiz() {
           option: ["circulation" , "significance" , "limit"],
           answer: 1,
         },
-  
-  
-  
-  
-  
-  
-  
-  
       ];
   const [currentqstn, setCurrentqstn] = useState(0);
   const [score, setScore] = useState(0);
@@ -79,10 +71,6 @@ export default function Quiz() {
   const [clickedOption, setClickedOption] = useState(0);
   const [submit ,SetSubmit] =useState(true)
 
-  //timer states
-  // const [min, setMin] = useState(0);
-  // const [sec, SetSec] = useState(30);
-  // const [time, setTime] = useState(true);
 
   const handleNext = () => {
     updateScore();
@@ -106,26 +94,6 @@ export default function Quiz() {
     }
   };
 
-  //timer
-  // useEffect(() => {
-  //   if (time) {
-  //     setTimeout(() => {
-  //       SetSec(sec-1);
-
-  //       if (sec === 60) {
-  //         setMin(min + 1);
-  //         SetSec(0);
-  //       } else if (sec == 1) {
-  //         setTotalScore(true);
-  //         setTime(false);
-  //         SetSubmit(false)
-          
-  //       }
-  //     }, 1000);
-  //   } else {
-  //     clearTimeout();
-  //   }
-  // });
   const Submited =()=>{
 
         console.log("sdfdsgfg")
@@ -135,24 +103,8 @@ export default function Quiz() {
 
   return (
     <div>
-      <div className="row mx-3 heading-passage mb-2">
-        <div className="col-8  mt-1 border-none rounded">
-          
-          <p>
-            <b>Passage 1</b><br/>
-            Read the text below and answer questions
-          </p>
 
-          
-        </div>
-        {/* timer component  */}
-        <Timer score={setTotalScore} submit={SetSubmit}/>
-        {/* <div className="col-4">
-            <h1 className="text-center mt-3">
-                <i class="fa-regular  fs-1 fa-clock"></i>{min}:{sec}
-            </h1>
-        </div> */}
-      </div>
+      <Timer heading={"Passage-1"} para={"Read the text and answer the questions"} score={setTotalScore} submit={SetSubmit}/>
 
 
       <div className="row mx-3 border   rounded">

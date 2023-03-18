@@ -5,7 +5,7 @@ const Instructons=() => {
   const navigate =useNavigate()
   return (
     <div className='bg-light'> 
-         <h2 className='ms-5 mt-4'>Academic Reading </h2>
+         <h2 className='ms-5 pt-1'>Academic Reading </h2>
          <h5 className='ms-5'>1 hour</h5>
       <div className="row mt-3">
         <div className="col-md-3"></div>
