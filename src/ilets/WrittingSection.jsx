@@ -2,6 +2,7 @@ import React , {useState} from 'react'
 import Timer from './Timer'
 import imgWriting from "../images/task-1.png"
 import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2'
 
 const WrittingSection = () => {
   const [totalScore, setTotalScore] = useState(true);
@@ -11,7 +12,12 @@ const WrittingSection = () => {
 
   const Submited =()=>{
     navigate('/SideQuiz')
-    alert("Your test have been submitted. Thankyou!")
+    Swal.fire({
+      title: 'Submitted',
+      text: 'Test has been submitted',
+      icon: 'success',
+      confirmButtonText: 'ok'
+    })
     SetSubmit(false)
 
 
@@ -41,7 +47,14 @@ const WrittingSection = () => {
           
           </div>
         ) : (
-        alert("Test is Submited. Thankyou!")
+          
+          Swal.fire({
+            title: 'Success!',
+            text: 'Test has been submitted',
+            icon: 'success',
+            confirmButtonText: 'ok'
+          }),
+          navigate("/SideQuiz")
 
         )
         }
