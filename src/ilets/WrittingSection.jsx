@@ -22,6 +22,10 @@ const WrittingSection = () => {
         <div className="col-md-6 border">
           <img src={imgWriting} className="img-fluid" alt="" />
         </div>
+        <div className="col-md-6">
+        <textarea className='border w-100 h-100' placeholder='Type here...'  ></textarea>
+
+        </div>
       
       </div>
 
