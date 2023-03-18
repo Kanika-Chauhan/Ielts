@@ -8,6 +8,8 @@ import GrammerQuiz from "./ilets/GrammerQuiz"
 import "./App.css"
 import Instructons from "./ilets/Instructons";
 import WrittingSection from "./ilets/WrittingSection";
+import InstructionsWriting from "./ilets/InstrustionsWriting";
+
 export default function App() {
   return (
 
@@ -24,6 +26,8 @@ export default function App() {
           <Route path="GrammerQuiz" element={<GrammerQuiz />} />
           <Route path= "instructions" element={<Instructons/>}/>
           <Route path= "WrittingSection" element={<WrittingSection/>}/>
+          <Route path= "InstructionsWriting" element={<InstructionsWriting/>}/>
+  
         </Routes>
       </BrowserRouter>
     </>
