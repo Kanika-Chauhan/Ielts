@@ -12,7 +12,7 @@ const TestCards = () => {
             <div className="card-body">
               <h4 className="card-title">Reading</h4>
               <p className="card-text pt-1">You will get 60 minutes to complete 40 questions. Click to start</p>
-              <a href="#" className="btn btn-primary" onClick={()=>navigate('/GrammerQuiz')}>Start</a>
+              <a className="btn btn-primary" onClick={()=>navigate('/instructions')}>Start</a>
             </div>
           </div>
 
