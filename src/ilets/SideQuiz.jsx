@@ -21,7 +21,7 @@ export default function SideQuiz() {
                 <i className="fa-solid ms-4 mb-4 fa-user fs-1"></i>
                 <ul className="nav nav-pills flex-column  mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li className="nav-item">
-                        <a href="#" className="nav-link align-middle px-0">
+                        <a className="nav-link align-middle px-0">
                         <i className="fa-solid mt-5 fa-laptop"></i><span className="ms-1  d-none text-white d-sm-inline">Ielts Test</span>
                         </a>
                     </li>
@@ -30,10 +30,10 @@ export default function SideQuiz() {
                         {/* <i className="fa-solid mt-4 text-white fa-user-tie"></i> <span className="ms-1 mt-4 d-none d-sm-inline text-white">Ielts Tutor</span> </a> */}
                         <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li className="w-100">
-                                <a href="#" className="nav-link px-0"><i className="fa-solid  mt-5 text-white fa-user-tie"></i> <span className="d-none text-white  d-sm-inline">Ielts Tutor</span> </a>
+                                <a className="nav-link px-0"><i className="fa-solid  mt-5 text-white fa-user-tie"></i> <span className="d-none text-white  d-sm-inline">Ielts Tutor</span> </a>
                             </li>
                             <li>
-                                <a  href="#" className="nav-link px-0 mt-5" >  <i class="fa-solid fa-chalkboard"></i>   <span className="d-none text-white fs-3 d-sm-inline">Ielts Practice</span></a>
+                                <a   className="nav-link px-0 mt-5" >  <i class="fa-solid fa-chalkboard"></i>   <span className="d-none text-white fs-3 d-sm-inline">Ielts Practice</span></a>
                             </li>
                         </ul>
                     </li>

@@ -1,17 +1,20 @@
 import React , {useState} from 'react'
 import Timer from './Timer'
 import imgWriting from "../images/task-1.png"
+import { useNavigate } from 'react-router-dom';
 
 const WrittingSection = () => {
   const [totalScore, setTotalScore] = useState(true);
   const [submit ,SetSubmit] =useState(true)
-  const [textarea, setTextarea] =useState(false)
+  const navigate = useNavigate();
 
 
   const Submited =()=>{
-
-    console.log("sdfdsgfg")
+    navigate('/SideQuiz')
+    alert("Your test have been submitted. Thankyou!")
     SetSubmit(false)
+
+
   
 }
 
@@ -23,7 +26,7 @@ const WrittingSection = () => {
           <img src={imgWriting} className="img-fluid" alt="" />
         </div>
         <div className="col-md-6">
-        <textarea className='border w-100 h-100' placeholder='Type here...'  ></textarea>
+        <textarea id='text1' className='border w-100 h-100' placeholder='Type here...'  ></textarea>
 
         </div>
       
@@ -34,14 +37,12 @@ const WrittingSection = () => {
           
           <div className="text-center mb-3 ">
             <br />
-            <button onClick={Submited} className="btn btn-primary" >{submit ? "Submit" : "Submited"}</button>
+            <button  onClick={Submited} className="btn btn-primary" >{submit ? "Submit" : "Submited"}</button>
           
           </div>
         ) : (
-          <div className="col-md-6   mt-5 mt-md-0">
+        alert("Test is Submited. Thankyou!")
 
-          <textarea disabled className='border w-100 h-100' placeholder='Type here...'  ></textarea>
-        </div>
         )
         }
 

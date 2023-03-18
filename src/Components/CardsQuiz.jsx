@@ -37,7 +37,7 @@ export default function CardsQuiz(){
                             </ul>
                             </p>
                             <h6 class="card-text mt-4"><b>$24.99 | month</b></h6> <br />
-                            <a href="#" class="btn btn-danger mb-3">Get started</a>
+                            <a  class="btn btn-danger mb-3">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ export default function CardsQuiz(){
                             </ul>
                             </p>
                             <h6 class="card-text mt-4"><b>$24.99 | month</b></h6> <br />
-                            <a href="#" class="btn btn-danger mb-3">Get started</a>
+                            <a  class="btn btn-danger mb-3">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ export default function CardsQuiz(){
                             </ul>
                             </p>
                             <h6 class="card-text mt-4"><b>$24.99 | month</b></h6> <br />
-                            <a href="#" class="btn btn-danger mb-3">Get started</a>
+                            <a class="btn btn-danger mb-3">Get started</a>
                         </div>
                     </div>
 

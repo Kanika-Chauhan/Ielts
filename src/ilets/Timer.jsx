@@ -19,7 +19,7 @@ const Timer = (props) => {
         } else if (sec == 1) {
 
           setTime(false);
-          props.score(true)
+          props.score(false)
           props.submit(false)
 
           // SetSubmit(false)
@@ -47,8 +47,8 @@ const Timer = (props) => {
         </div>
 
         <div className="col-4">
-          <h1 className="text-center mt-3">
-            <i class="fa-regular  fs-1 fa-clock"></i>{min}:{sec}
+          <h1 className="text-center mt-1">
+            <i class="fa-regular  fs-1 fa-clock"></i>     {min}:{sec}
           </h1>
         </div>
       </div>
